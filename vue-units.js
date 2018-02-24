@@ -43,14 +43,14 @@
         /*
          * Add a simple filter for converting units
          */
-        Vue.filter('units', function (value, from, to) {
+        Vue.filter('units', function (value, from, to, includeLabel) {
             try {
-                return units(value).from(from).to(to);
+                return units(value).from(from).to(to) + (includeLabel ? ' ' + to : '');
             } catch (err) {
                 // Prevent Vue from crashing if incorrect metrics are provided
                 // and simply return the original value instead.
                 console.error(err);
-                return value;
+                return value + (includeLabel ? ' ' + from : '');
             }
         });
     }
