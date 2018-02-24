@@ -28,7 +28,7 @@ Vue.use(VueUnits)
 If you don't use ES6, you can also include it as a script locally:
 
 ```html
-<script src="https://unpkg.com/vue-units@1.0.2/vue-units.js"></script>
+<script src="https://unpkg.com/vue-units@^1.0/vue-units.js"></script>
 ```
 
 ## Usage
