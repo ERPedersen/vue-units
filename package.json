@@ -1,6 +1,6 @@
 {
   "name": "vue-units",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handy unit conversion filters for your Vue.js project",
   "main": "vue-units.js",
   "scripts": {
