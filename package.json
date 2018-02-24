@@ -1,6 +1,6 @@
 {
   "name": "vue-units",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Handy unit conversion filters for your Vue.js project",
   "main": "vue-units.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "url": "git+https://github.com/ERPedersen/vue-units.git"
   },
   "keywords": [
-    "vue"
+    "vue",
+    "unit conversion",
+    "vue-units",
+    "units",
+    "unit",
+    "converter"
   ],
   "author": "ERPedersen",
   "license": "MIT",

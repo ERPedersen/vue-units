@@ -16,6 +16,21 @@ If you prefer to use [Yarn](https://github.com/yarnpkg/yarn), you can install it
 yarn install vue-units --save
 ```
 
+Add it to your vue instance:
+
+```javascript
+import Vue from 'vue';
+import VueUnits from 'vue-units';
+
+Vue.use(VueUnits)
+```
+
+If you don't use ES6, you can also include it as a script
+
+```javascript
+<script src="node_modules/vue-units/vue-units.js"></script>
+```
+
 ## Usage
 
 ### Filters
