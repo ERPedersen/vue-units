@@ -1,0 +1,28 @@
+{
+  "name": "vue-units",
+  "version": "1.0.0",
+  "description": "Handy unit conversion filters for your Vue.js project",
+  "main": "vue-units.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ERPedersen/vue-units.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "ERPedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ERPedersen/vue-units/issues"
+  },
+  "homepage": "https://github.com/ERPedersen/vue-units#readme",
+  "peerDependencies": {
+    "vue": ">=1.x.x"
+  },
+  "dependencies": {
+    "convert-units": "^2.3.4"
+  }
+}
