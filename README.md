@@ -27,7 +27,7 @@ Vue.use(VueUnits)
 
 If you don't use ES6, you can also include it as a script
 
-```javascript
+```html
 <script src="node_modules/vue-units/vue-units.js"></script>
 ```
 
