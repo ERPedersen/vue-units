@@ -13,7 +13,7 @@ npm install vue-units --save
 If you prefer to use [Yarn](https://github.com/yarnpkg/yarn), you can install it with the following command instead:
 
 ```
-yarn install vue-units --save
+yarn add vue-units
 ```
 
 Add it to your vue instance:
