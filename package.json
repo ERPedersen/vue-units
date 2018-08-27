@@ -28,6 +28,6 @@
     "vue": ">=1.x.x"
   },
   "dependencies": {
-    "convert-units": "https://github.com/kuehlhaus.com/convert-units.git"
+    "convert-units": "git+https://github.com/kuehlhaus.com/convert-units.git#semver:>=2.3.5"
   }
 }
