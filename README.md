@@ -42,7 +42,7 @@ The filter `unit(from, to, includeUnit)` is added to your [Vue](https://github.c
 ```vue
 <template>
   <div id="app">
-    <p>{{1500 | unit('m', 'km', true)}}</p>
+    <p>{{1500 | units('m', 'km', true)}}</p>
   </div>
 </template>
 ```
